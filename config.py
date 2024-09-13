@@ -1,0 +1,11 @@
+random_seed = 42
+layer_sizes = [32, 32]
+lr_train = 1e-4
+train_save_epoch = 100
+train_final_epoch = 1000
+lr_finetune = 1e-4
+ft_eval_epoch = 20
+ft_final_epoch = 40
+model_path = "your_model_path/"
+res_path = "your_results_path/"
+hist_path = "your_hist_path/"
