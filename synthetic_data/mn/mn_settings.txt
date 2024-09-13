@@ -1,0 +1,27 @@
+mn_simulated_1.csv:
+    model: [4][4,4][1]
+    input: 0,1
+    seed(generate): 5591
+    weight: uniform(-0.3~0.3)
+    size: 1k
+
+mn_simulated_2.csv:
+    model: [4][4,4][1]
+    input: 0,1
+    seed(generate): 5591
+    weight: uniform(-1~1)
+    size: 1k
+
+mn_simulated_3.csv:
+    model: [4][4,4][1]
+    input: 0,1
+    seed(generate): 5591
+    weight: uniform(-3~3)
+    size: 1k
+
+mn_simulated_4.csv*:  All y_true is 1. Cannot calculate ROC_AUC
+    model: [4][4,4][1]
+    input: 0,1
+    seed(generate): 5591
+    weight: uniform(-10~10)
+    size: 1k
